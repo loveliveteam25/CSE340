@@ -15,6 +15,7 @@ public class Token {
   private String word;
   private String token;
   private int line;
+  
 
   public Token(String word, String token, int line) {
     this.word = word;
@@ -42,6 +43,7 @@ public class Token {
 
   public void setToken(String token) {
     this.token = token;
+    this. 
   }
 
   public int getLine() {
